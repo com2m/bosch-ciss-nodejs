@@ -1,0 +1,26 @@
+{
+  "name": "bosch-ciss-usb",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "dist/app.js",
+  "main": "dist/app.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "yarn serve",
+    "serve": "node dist/app.js",
+    "watch-node": "nodemon dist/app.js",
+    "watch-ts": "tsc -w"
+  },
+  "author": "com2m GmbH",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1",
+    "@types/serialport": "^6.0.4"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.3",
+    "serialport": "^7.0.2"
+  }
+}
